@@ -1,0 +1,14 @@
+{
+    "Dr.Robert Smith": {
+        "password": "Robert",
+        "role": "admin"
+    },
+    "Rubab": {
+        "password": "1234",
+        "role": "student"
+    },
+    "Mehwish Alam": {
+        "password": "Mehwish",
+        "role": "admin"
+    }
+}

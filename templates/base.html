@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SMIT Quiz App</title>
+  <!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+  body {
+    font-family: 'Exo 2', 'Cinzel', 'Dancing Script', 'Caveat','Inter',  sans-serif;
+  }
+
+  /* Change default link color */
+  a {
+    color: #007bff; /* Example: Bootstrap blue */
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    transition: color 0.3s ease;
+  }
+
+  /* Change color on hover */
+  a:hover {
+    color: #0056b3; /* Darker blue */
+    text-decoration: underline;
+  }
+
+  /* Optional: style visited links */
+  a:visited {
+    color: #6f42c1; /* Purple */
+  }
+</style>
+
+<body class="bg-light">
+
+  <!-- Top Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success mb-4 shadow">
+    <div class="container">
+      <a class="navbar-brand" href="#">SMIT Quiz App</a>
+      {% if session.get('username') %}
+        <div class="text-white">
+          Welcome {{ session['username'] }} |
+          <a href="{{ url_for('logout') }}" class="btn btn-sm btn-light">Logout</a>
+        </div>
+      {% endif %}
+    </div>
+  </nav>
+
+  <!-- Header Content -->
+  <div class="container mb-4">
+    <div class="text-center">
+      <h2 class="fw-bold">Saylani Mass IT Training Program</h2>
+      <p class="lead">Empowering youth with digital skills through structured learning</p>
+      <p class="text-muted">Use this platform to evaluate your knowledge and prepare for a brighter tech future with SMIT.</p>
+    </div>
+    <hr>
+  </div>
+
+  <!-- Page Content -->
+  <div class="container mb-5">
+    {% block content %}{% endblock %}
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 fixed-bottom">
+    <small>© {{ now().year }} SMIT | Developed for Educational Purposes</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

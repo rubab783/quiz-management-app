@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+  <h2>Choose Subject</h2>
+  <div>
+    Logged in as <strong>{{ session['username'] }}</strong> |
+    <a href="{{ url_for('logout') }}" class="btn btn-sm btn-outline-danger">Logout</a>
+  </div>
+</div>
+
+<ul class="list-group">
+  {% for subject in subjects %}
+    <li class="list-group-item">
+      <a href="{{ url_for('take_quiz', subject=subject) }}" class="text-decoration-none">
+        {{ subject }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+{% endblock %}

@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+  <h2>Admin Panel</h2>
+  <div>
+    Logged in as <strong>{{ session['username'] }}</strong> |
+    <a href="{{ url_for('logout') }}" class="btn btn-sm btn-outline-danger">Logout</a>
+  </div>
+</div>
+
+<div class="card shadow-sm p-4 mb-4 bg-white">
+  <h4 class="mb-3">Existing Subjects</h4>
+  <ul class="list-group">
+    {% for subject in subjects %}
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        {{ subject }}
+        <a href="{{ url_for('add_question', subject=subject) }}" class="btn btn-sm btn-outline-primary">
+          Add Questions
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="card shadow-sm p-4 bg-white">
+  <h4 class="mb-3">Add New Subject</h4>
+  <form method="post" action="/admin/add_subject">
+    <div class="input-group">
+      <input type="text" name="subject" placeholder="New Subject" class="form-control" required>
+      <button type="submit" class="btn btn-success">Add Subject</button>
+    </div>
+  </form>
+</div>
+
+{% endblock %}

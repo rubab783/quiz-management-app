@@ -1,0 +1,294 @@
+{
+    "Computer science": [
+        {
+            "question": "What does CPU stand for?",
+            "options": {
+                "A": "Central Processing Unit",
+                "B": "Computer Power Unit",
+                "C": "Central Program Unit",
+                "D": "Control Panel Unit"
+            },
+            "answer": "A"
+        },
+        {
+            "question": "Which of these is **not** a type of computer memory?",
+            "options": {
+                "A": "ROM",
+                "B": "RAM",
+                "C": "SSD",
+                "D": "USB"
+            },
+            "answer": "D"
+        },
+        {
+            "question": "What does GUI stand for?",
+            "options": {
+                "A": "Graphical User Interface",
+                "B": "Global Unit Integration",
+                "C": "Graphics Utility Installer",
+                "D": "General Utility Interface"
+            },
+            "answer": "A"
+        },
+        {
+            "question": "Which of the following is used for database management?",
+            "options": {
+                "A": "MS EXCEL",
+                "B": "ORACLE",
+                "C": "ADOBE ILLUSTRATOR",
+                "D": "POWERPOINT"
+            },
+            "answer": "B"
+        }
+    ],
+    "Data science": [
+        {
+            "question": "What is the primary language used in data science?",
+            "options": {
+                "A": "C++",
+                "B": "Python",
+                "C": "Java",
+                "D": "Swift"
+            },
+            "answer": "B"
+        },
+        {
+            "question": "Which library is used in Python for data manipulation?",
+            "options": {
+                "A": "NumPy",
+                "B": "Seaborn",
+                "C": "Pandas",
+                "D": "Matplotlib"
+            },
+            "answer": "C"
+        },
+        {
+            "question": "What is the process of cleaning and organizing raw data called?",
+            "options": {
+                "A": "Data Analysis",
+                "B": "Data Wrangling",
+                "C": "Data Mining",
+                "D": "Data Reporting"
+            },
+            "answer": "B"
+        },
+        {
+            "question": "Which of the following is a supervised learning algorithm?",
+            "options": {
+                "A": "K- Means",
+                "B": "Decision Tree",
+                "C": "DBSCAN",
+                "D": "Apriori"
+            },
+            "answer": "B"
+        },
+        {
+            "question": "Which plot is best for checking correlation between two variables?",
+            "options": {
+                "A": "Histogram",
+                "B": "Boxplot",
+                "C": "Scatterplot",
+                "D": "Barplot"
+            },
+            "answer": "C"
+        }
+    ],
+    "Artificial intelligence": [
+        {
+            "question": "What is the full form of AI?",
+            "options": {
+                "A": "Automatic Interface",
+                "B": "Artificial Intelligence",
+                "C": "Alogorithmic Input",
+                "D": "Auto Integration"
+            },
+            "answer": "B"
+        },
+        {
+            "question": "Which technique is used to simulate human thinking?",
+            "options": {
+                "A": "Data Science",
+                "B": "Cybernatics",
+                "C": "Machine Learning",
+                "D": "AI"
+            },
+            "answer": "D"
+        },
+        {
+            "question": "Which algorithm is used for pathfinding in AI?",
+            "options": {
+                "A": "KNN",
+                "B": "A*",
+                "C": "Linear Regression",
+                "D": "K-means"
+            },
+            "answer": "B"
+        },
+        {
+            "question": "Which of these is an application of AI?",
+            "options": {
+                "A": "Spam Filters",
+                "B": "Voice Assistants",
+                "C": "Self-Driving Cars",
+                "D": "All of them"
+            },
+            "answer": "D"
+        }
+    ],
+    "Biology": [
+        {
+            "question": "How many bones are  there in human body",
+            "options": {
+                "A": "207",
+                "B": "208",
+                "C": "206",
+                "D": "300"
+            },
+            "answer": "C"
+        },
+        {
+            "question": "Which is the basic unit of life?",
+            "options": {
+                "A": "Tissue",
+                "B": "Organ",
+                "C": "Cell",
+                "D": "Atom"
+            },
+            "answer": "C"
+        },
+        {
+            "question": "What organ pumps blood throughout the body?",
+            "options": {
+                "A": "Brain",
+                "B": "Liver",
+                "C": "Lungs",
+                "D": "Heart"
+            },
+            "answer": "D"
+        },
+        {
+            "question": "Which gas is taken in during photosynthesis?",
+            "options": {
+                "A": "Carbon di Oxide",
+                "B": "Oxygen",
+                "C": "Nitrogen",
+                "D": "Hydrogen"
+            },
+            "answer": "A"
+        },
+        {
+            "question": "Which vitamin is produced by sunlight?",
+            "options": {
+                "A": "A",
+                "B": "B12",
+                "C": "C",
+                "D": "D"
+            },
+            "answer": "D"
+        }
+    ],
+    "Maths": [
+        {
+            "question": "What is the value of \u03c0 (pi) approximately?",
+            "options": {
+                "A": "2.14",
+                "B": "3.14",
+                "C": "2.7",
+                "D": "4.8"
+            },
+            "answer": "B"
+        },
+        {
+            "question": "What is the square root of 144?",
+            "options": {
+                "A": "10",
+                "B": "12",
+                "C": "14",
+                "D": "16"
+            },
+            "answer": "B"
+        },
+        {
+            "question": "If 3x = 12, what is x?",
+            "options": {
+                "A": "2",
+                "B": "3",
+                "C": "4",
+                "D": "5"
+            },
+            "answer": "C"
+        },
+        {
+            "question": "Which of the following is a prime number?",
+            "options": {
+                "A": "4",
+                "B": "9",
+                "C": "13",
+                "D": "15"
+            },
+            "answer": "C"
+        },
+        {
+            "question": "What is the result of 2\u00b3?",
+            "options": {
+                "A": "6",
+                "B": "8",
+                "C": "9",
+                "D": "12"
+            },
+            "answer": "B"
+        }
+    ],
+    "English": [
+        {
+            "question": "Which part of speech is the word 'quickly'?",
+            "options": {
+                "A": "Noun",
+                "B": "Verb",
+                "C": "Adverb",
+                "D": "Adjective"
+            },
+            "answer": "C"
+        },
+        {
+            "question": "Which sentence is in past tense?",
+            "options": {
+                "A": "I will go to the Park",
+                "B": "She goes to the park",
+                "C": "He went to the park",
+                "D": "They are going to the Park"
+            },
+            "answer": "C"
+        },
+        {
+            "question": "Choose the correct synonym for 'Happy'.",
+            "options": {
+                "A": "sad",
+                "B": "joyful",
+                "C": "excited",
+                "D": "Tired"
+            },
+            "answer": "B"
+        },
+        {
+            "question": "What is the plural of 'child'?",
+            "options": {
+                "A": "Childs",
+                "B": "Childes",
+                "C": "Childer",
+                "D": "Children"
+            },
+            "answer": "D"
+        },
+        {
+            "question": "Which of the following is a conjunction?",
+            "options": {
+                "A": "And",
+                "B": "Happy",
+                "C": "Quickly",
+                "D": "big"
+            },
+            "answer": "A"
+        }
+    ]
+}
